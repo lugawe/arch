@@ -10,6 +10,10 @@ Arch linux configs, dotfiles, etc.
 pacman -S git base-devel vim neovim curl less zsh tmux ttf-hack libx11 libxft libxinerama xorg-server xorg-xinit alacritty
 ```
 
+```shell
+pacman -S python
+```
+
 ### Install oh-my-zsh
 
 ```shell

@@ -7,7 +7,7 @@ Arch linux configs, dotfiles, etc.
 Install packages
 
 ```shell
-pacman -S git base-devel vim neovim curl less zsh tmux libx11 libxft libxinerama xorg-server xorg-xinit alacritty
+pacman -S git base-devel vim neovim curl less zsh tmux ttf-hack libx11 libxft libxinerama xorg-server xorg-xinit alacritty
 ```
 
 Install oh-my-zsh

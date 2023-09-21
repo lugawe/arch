@@ -46,6 +46,8 @@ exec dwm
 
 ### Place in profile file
 
+For zsh in ~/.zprofile
+
 ```shell
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx

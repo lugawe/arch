@@ -4,27 +4,33 @@ Arch linux configs, dotfiles, etc.
 
 ## Install packages
 
-Install packages
+### Install packages
 
 ```shell
 pacman -S git base-devel vim neovim curl less zsh tmux ttf-hack libx11 libxft libxinerama xorg-server xorg-xinit alacritty
 ```
 
-Install oh-my-zsh
+### Install oh-my-zsh
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+```shell
+rm ~/.bash*
+```
+
+Apply plugins: git ssh-agent sudo
+
 ## Install dwm stuff
 
-dwm
+### dwm
 
 ```shell
 make clean install
 ```
 
-dmenu
+### dmenu
 
 ```shell
 make clean install
@@ -32,13 +38,13 @@ make clean install
 
 ## Autostart
 
-Place in .xinitrc file
+### Place in .xinitrc file
 
 ```shell
 exec dwm
 ```
 
-Place in profile file
+### Place in profile file
 
 ```shell
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then

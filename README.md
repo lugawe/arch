@@ -45,6 +45,7 @@ make clean install
 ### Place in .xinitrc file
 
 ```shell
+slstatus &
 exec dwm
 ```
 

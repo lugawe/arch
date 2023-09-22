@@ -18,16 +18,6 @@ Optional:
 python vim neovim tmux lsd
 ```
 
-### Install oh-my-zsh
-
-```shell
-pacman -S zsh curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-rm ~/.bash*
-```
-
-Apply plugins: git ssh-agent sudo
-
 ## Install dwm stuff
 
 ### dwm
@@ -37,6 +27,12 @@ make clean install
 ```
 
 ### dmenu
+
+```shell
+make clean install
+```
+
+### slstatus
 
 ```shell
 make clean install
@@ -60,3 +56,13 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
 fi
 ```
+
+## Install oh-my-zsh
+
+```shell
+pacman -S zsh curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+rm ~/.bash*
+```
+
+Apply plugins: git ssh-agent sudo

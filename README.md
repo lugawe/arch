@@ -40,7 +40,9 @@ make clean install
 
 ## Autostart
 
-### Place in .xinitrc file
+### Place in xinitrc file
+
+In ~/.xinitrc
 
 ```shell
 slstatus &

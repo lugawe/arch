@@ -6,9 +6,13 @@ Arch linux configs, dotfiles, etc.
 
 ### Install packages
 
+Needed:
+
 ```shell
 pacman -S git base-devel ttf-hack-nerd libx11 libxft libxinerama xorg-server xorg-xinit alacritty
 ```
+
+Optional:
 
 ```shell
 pacman -S python vim neovim tmux lsd

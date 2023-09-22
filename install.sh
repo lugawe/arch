@@ -4,13 +4,7 @@ set -e
 
 echo "Install packages..."
 
-sudo pacman -S git base-devel ttf-hack-nerd libx11 libxft libxinerama xorg-server xorg-xinit alacritty \
-    python vim neovim tmux lsd zsh curl \
-    zsh curl
-
-echo "Install oh-my-zsh..."
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo pacman -S git base-devel ttf-hack-nerd libx11 libxft libxinerama xorg-server xorg-xinit alacritty
 
 echo "Install suckless dwm / tools..."
 

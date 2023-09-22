@@ -14,4 +14,5 @@ cd slstatus && sudo make clean install && cd ..
 
 echo "Setup init files..."
 
-echo "slstatus &\nexec dwm" >> ~/.xinitrc
+echo "slstatus &" >> ~/.xinitrc
+echo "exec dwm" >> ~/.xinitrc

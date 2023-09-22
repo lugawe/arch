@@ -63,8 +63,13 @@ fi
 
 ```shell
 pacman -S zsh curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-rm ~/.bash*
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+sudo chsh -s /usr/bin/zsh "$USER"
 ```
 
-Apply plugins: git ssh-agent sudo
+```shell
+pacman -S lsd
+echo "alias ls=\"lsd\"" >> ~/.zshrc
+echo "alias l=\"lsd -l\"" >> ~/.zshrc
+echo "alias la=\"lsd -la\"" >> ~/.zshrc
+```

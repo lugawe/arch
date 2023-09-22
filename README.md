@@ -7,20 +7,18 @@ Arch linux configs, dotfiles, etc.
 ### Install packages
 
 ```shell
-pacman -S git base-devel vim curl less zsh ttf-hack-nerd libx11 libxft libxinerama xorg-server xorg-xinit alacritty
+pacman -S git base-devel ttf-hack-nerd libx11 libxft libxinerama xorg-server xorg-xinit alacritty
 ```
 
 ```shell
-pacman -S python neovim tmux lsd
+pacman -S python vim neovim tmux lsd
 ```
 
 ### Install oh-my-zsh
 
 ```shell
+pacman -S zsh curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-```shell
 rm ~/.bash*
 ```
 

@@ -5,14 +5,14 @@
     "spacing": 4,
     "modules-left": [],
     "modules-center": [
-        "hyperland/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-right": [
         "cpu",
         "memory",
         "clock"
     ],
-    "hyperland/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,

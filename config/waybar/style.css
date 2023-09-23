@@ -21,7 +21,6 @@ button {
     border-radius: 0;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
     box-shadow: inset 0 -2px #ffffff;
@@ -34,6 +33,8 @@ button:hover {
 }
 
 #workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
     background: rgba(0, 0, 0, 0.2);
 }
 

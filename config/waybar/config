@@ -10,6 +10,7 @@
     "modules-right": [
         "cpu",
         "memory",
+        "battery",
         "clock"
     ],
     "hyprland/workspaces": {
@@ -29,6 +30,10 @@
     },
     "memory": {
         "format": "MEM {}%"
+    },
+    "battery": {
+        "format": "BAT {capacity}%",
+        "format-charging": "BAT! {capacity}%"
     },
     "clock": {
         "timezone": "Europe/Berlin",

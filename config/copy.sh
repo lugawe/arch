@@ -2,7 +2,7 @@
 
 set -e
 
-config_dir="~/.config"
+config_dir="/home/$USER/.config"
 waybar_config_dir="$config_dir/waybar"
 alacritty_config_dir="$config_dir/alacritty"
 hypr_config_dir="$config_dir/hypr"

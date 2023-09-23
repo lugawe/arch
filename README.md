@@ -42,7 +42,7 @@ make clean install
 
 ### Place in xinitrc file
 
-In ~/.xinitrc
+Add to ~/.xinitrc
 
 ```shell
 slstatus &
@@ -51,7 +51,7 @@ exec dwm
 
 ### Place in profile file
 
-For zsh in ~/.zprofile
+Add to profile file
 
 ```shell
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
@@ -72,4 +72,16 @@ pacman -S lsd
 echo "alias ls=\"lsd\"" >> ~/.zshrc
 echo "alias l=\"lsd -l\"" >> ~/.zshrc
 echo "alias la=\"lsd -la\"" >> ~/.zshrc
+```
+
+## Opacity and Blur
+
+```shell
+pacman -S picom
+```
+
+Add to ~/.xinitrc
+
+```shell
+picom &
 ```

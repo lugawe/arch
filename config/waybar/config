@@ -3,41 +3,35 @@
     "position": "top",
     "height": 30,
     "spacing": 4,
-    "modules-left": [
-    ],
+    "modules-left": [],
     "modules-center": [
         "hyperland/workspaces"
     ],
     "modules-right": [
         "cpu",
         "memory",
-        "clock",
-        "tray"
+        "clock"
     ],
     "hyperland/workspaces": {
-         "disable-scroll": true,
-         "all-outputs": true,
-         "warp-on-scroll": false,
-         "format": "{icon}",
-         "format-icons": {
-             "urgent": "?",
-             "focused": "?",
-             "default": "?"
-         }
-    },
-    "tray": {
-        "spacing": 10
-    },
-    "clock": {
-        "timezone": "Europe/Berlin",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{icon}",
+        "format-icons": {
+            "urgent": "?",
+            "focused": "?",
+            "default": "?"
+        }
     },
     "cpu": {
-        "format": "{usage}%",
+        "format": "CPU {usage}%",
         "tooltip": false
     },
     "memory": {
-        "format": "{}%"
+        "format": "MEM {}%"
+    },
+    "clock": {
+        "timezone": "Europe/Berlin",
+        "format": "{:%d-%m-%y %H:%M}"
     }
 }

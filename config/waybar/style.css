@@ -1,9 +1,9 @@
-:root {
+/*:root {
     --color-inactive: #585858;
     --color-white: #dddddd;
     --color-green: #26a66a;
-    --color-red: #f53c3c;
-}
+    --color-red: #f64b4b;
+}*/
 
 * {
     font-family: "Hack Nerd Font Mono", FontAwesome;
@@ -13,7 +13,7 @@
 window#waybar {
     background-color: rgba(44, 48, 60, 0.2);
     border-bottom: 2px solid rgba(100, 114, 126, 0.2);
-    color: var(--color-white);
+    color: #dddddd;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -30,12 +30,12 @@ button {
 
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -2px var(--color-white);
+    box-shadow: inset 0 -2px #dddddd;
 }
 
 #workspaces button {
     background-color: transparent;
-    color: var(--color-inactive);
+    color: #585858;
     padding: 0 5px;
 }
 
@@ -46,7 +46,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    color: var(--color-white);
+    color: #dddddd;
 }
 
 #window,
@@ -68,19 +68,19 @@ button:hover {
 #battery,
 #clock {
     background-color: transparent;
-    color: var(--color-white);
+    color: #dddddd;
     padding: 0 10px;
 }
 
 #network.disconnected {
-    color: var(--color-red);
+    color: #f64b4b;
 }
 
 #battery.charging,
 #battery.plugged {
-    color: var(--color-green);
+    color: #26a66a;
 }
 
 #battery.critical:not(.charging) {
-    color: var(--color-red);
+    color: #f64b4b;
 }

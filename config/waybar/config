@@ -18,17 +18,12 @@
         "disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,
-        "format": "{name}",
-        "format-icons": {
-            "urgent": "?",
-            "focused": "?",
-            "default": "?"
-        }
+        "format": "{name}"
     },
     "network": {
-        "format-wifi": "{essid} ({signalStrength}%)",
-        "format-ethernet": "{ipaddr}/{cidr}",
-        "tooltip-format": "{ifname} via {gwaddr}"
+        "format-wifi": "WIFI {essid}",
+        "format-ethernet": "ETH",
+        "tooltip-format": "{ifname} via {gwaddr} ({ipaddr})"
     },
     "battery": {
         "format": "BAT {capacity}%"

@@ -10,8 +10,7 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "cpu",
-        "memory",
+        "network",
         "battery",
         "clock"
     ],
@@ -26,16 +25,13 @@
             "default": "?"
         }
     },
-    "cpu": {
-        "format": "CPU {usage}%",
-        "tooltip": false
-    },
-    "memory": {
-        "format": "MEM {}%"
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} via {gwaddr}"
     },
     "battery": {
-        "format": "BAT {capacity}%",
-        "format-charging": "BAT! {capacity}%"
+        "format": "BAT {capacity}%"
     },
     "clock": {
         "timezone": "Europe/Berlin",

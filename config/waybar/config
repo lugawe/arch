@@ -23,6 +23,7 @@
     "network": {
         "format-wifi": "WIFI {essid}",
         "format-ethernet": "ETH",
+        "format-disconnected": "NO NET",
         "tooltip-format": "{ifname} via {gwaddr} ({ipaddr})"
     },
     "battery": {

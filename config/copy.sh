@@ -14,6 +14,6 @@ mkdir -p "$hypr_config_dir"
 
 cp waybar/config "$waybar_config_dir"
 cp waybar/style.css "$waybar_config_dir"
-cp alacritty.yml "$alacritty_config_dir"
+cp alacritty.toml "$alacritty_config_dir"
 cp hyprland.conf "$hypr_config_dir"
 cp hyprpaper.conf "$hypr_config_dir"

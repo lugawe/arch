@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 config_dir="/home/$USER/.config"
 alacritty_config_dir="$config_dir/alacritty"

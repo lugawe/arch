@@ -1,3 +1,7 @@
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["--login"]
+
 [colors.primary]
 background = "#000000"
 foreground = "#dddddd"
@@ -24,3 +28,7 @@ opacity = 0.8
 [window.padding]
 x = 4
 y = 4
+
+[window.dimensions]
+columns = 120
+lines = 30

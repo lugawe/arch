@@ -4,6 +4,8 @@ end
 
 set fish_greeting ""
 
+abbr --add "ad" "alacritty & disown"
+
 set -x JAVA_HOME "/usr/lib/jvm/java-21-amazon-corretto"
 set -x PATH "$JAVA_HOME/bin" "$PATH"
 

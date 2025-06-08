@@ -1,0 +1,30 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+$username\
+$directory\
+$cmd_duration\
+$fill\
+$git_branch\
+$line_break\
+$character
+"""
+
+[username]
+show_always = true
+style_user = "yellow"
+style_root = "bold red"
+format = "[$user]($style) in "
+
+[directory]
+truncation_length = 1
+truncate_to_repo = false
+read_only = "(read-only!) "
+format = "[$path](bold cyan) [$read_only](red)"
+
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow) "
+
+[git_branch]
+format = " [$branch](bold purple)"

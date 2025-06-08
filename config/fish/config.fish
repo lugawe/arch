@@ -6,7 +6,7 @@ set fish_greeting ""
 
 abbr --add "ad" "alacritty & disown"
 
-for file in "$__fish_config_dir/conf.d/*.fish"
+for file in $__fish_config_dir/conf.d/*.fish
     source $file
 end
 

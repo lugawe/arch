@@ -7,11 +7,11 @@ for file in $__fish_config_dir/conf.d/*.fish
 end
 
 if status is-interactive
-    # Commands to run in interactive sessions can go here
-    if not set -q TMUX
-        exec tmux
-    end
-end
 
-set -x STARSHIP_CONFIG "$HOME/.config/starship/starship.toml"
-starship init fish | source
+    if not set -q TMUX
+        tmux attach -t main &>/dev/null || tmux new -s main &>/dev/null
+    end
+
+    starship init fish | source
+
+end

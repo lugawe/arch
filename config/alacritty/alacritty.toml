@@ -1,10 +1,13 @@
 [terminal.shell]
-program = "/usr/bin/fish"
+program = "fish"
 args = ["--login"]
 
 [colors.primary]
 background = "#000000"
 foreground = "#dddddd"
+
+[font]
+size = 14
 
 [font.normal]
 family = "Hack Nerd Font Mono"

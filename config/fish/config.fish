@@ -8,7 +8,7 @@ end
 
 if status is-interactive
 
-    if not set -q TMUX
+    if not set -q DISABLE_TMUX; and not set -q TMUX
         tmux attach -t main &>/dev/null || tmux new -s main &>/dev/null
     end
 

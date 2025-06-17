@@ -11,7 +11,7 @@ if status is-interactive
     if not set -q DISABLE_TMUX; and not set -q TMUX
         tmux has-session -t main &>/dev/null
         or tmux new -s main &>/dev/null
-        and test (tmux list-clients -t main &>/dev/null | wc -l) -eq 0
+        and test (tmux list-clients -t main 2>/dev/null | wc -l) -eq 0
         and tmux attach -t main &>/dev/null
     end
 

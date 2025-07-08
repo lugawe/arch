@@ -1,0 +1,8 @@
+theme = "base16_transparent"
+
+[editor]
+true-color = true
+mouse = false
+
+[keys.normal]
+"ret" = ":write"

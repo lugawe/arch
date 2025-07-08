@@ -6,3 +6,11 @@ mouse = false
 
 [keys.normal]
 "ret" = ":write"
+
+[editor.statusline]
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "S"
+left = ["mode", "file-base-name", "read-only-indicator", "file-modification-indicator"]
+center = ["version-control"]
+right = ["spinner", "position"]

@@ -2,6 +2,14 @@
 
 Arch linux configs, dotfiles, etc.
 
+## Needed packages
+
+### Tools
+
+```shell
+fd fzf ripgrep
+```
+
 ## Install packages
 
 ### Packages

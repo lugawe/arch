@@ -1,0 +1,46 @@
+# luwe_transparent
+
+"inherits" = "base16_transparent"
+
+"ui.background" = { fg = "white" }
+"ui.background.separator" = { fg = "gray" }
+
+"ui.text" = { fg = "light-gray" }
+"ui.text.focus" = { fg = "white" }
+
+"ui.linenr" = { fg = "l-light-gray" }
+"ui.linenr.selected" = { fg = "l-orange", modifiers = ["bold"] }
+
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { modifiers = ["reversed"] }
+
+"ui.selection" = { bg = "l-dark-lila" }
+
+"ui.statusline" = { fg = "l-light-gray" }
+"ui.statusline.inactive" = { fg = "l-light-gray" }
+"ui.statusline.normal" = { fg = "light-gray" }
+"ui.statusline.insert" = { fg = "l-orange" }
+"ui.statusline.select" = { fg = "l-lila" }
+
+"comment" = "l-light-gray2x"
+"variable" = "light-red"
+"constant.numeric" = "yellow"
+"constant" = "yellow"
+"attribute" = "yellow"
+"type" = "light-yellow"
+"string" = "light-green"
+"variable.other.member" = "green"
+"constant.character.escape" = "light-cyan"
+"function" = "light-blue"
+"constructor" = "light-blue"
+"special" = "light-blue"
+"keyword" = "light-magenta"
+"label" = "light-magenta"
+"namespace" = "light-magenta"
+
+[palette]
+l-orange = "#ffa500"
+l-lila = "#9955bb"
+l-dark-lila = "#2e1a58"
+l-light-gray = "#424242"
+l-light-gray2x = "#797979"

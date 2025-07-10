@@ -5,14 +5,15 @@ true-color = true
 color-modes = true
 mouse = false
 
-[keys.normal]
-"ret" = ":write"
-
 [editor.statusline]
 mode.normal = "N"
 mode.insert = "I"
 mode.select = "S"
 
-left = ["mode", "file-base-name", "read-only-indicator", "file-modification-indicator"]
+left = ["mode", "file-base-name", "file-modification-indicator", "read-only-indicator"]
 center = ["version-control"]
 right = ["spinner", "position"]
+
+
+[keys.normal]
+"ret" = ":write"

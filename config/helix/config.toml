@@ -1,7 +1,8 @@
-theme = "base16_transparent"
+theme = "luwe_transparent"
 
 [editor]
 true-color = true
+color-modes = true
 mouse = false
 
 [keys.normal]
@@ -11,6 +12,7 @@ mouse = false
 mode.normal = "N"
 mode.insert = "I"
 mode.select = "S"
+
 left = ["mode", "file-base-name", "read-only-indicator", "file-modification-indicator"]
 center = ["version-control"]
 right = ["spinner", "position"]

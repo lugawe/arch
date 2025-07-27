@@ -1,3 +1,6 @@
+[env]
+TERM = "xterm-256color"
+
 [terminal.shell]
 program = "fish"
 args = ["--login"]

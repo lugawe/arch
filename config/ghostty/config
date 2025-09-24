@@ -1,22 +1,22 @@
-title = "ghostty"
+window-height = 32
+window-width = 90
 
 window-padding-x = 8
 window-padding-y = 8
 
-background-opacity = 0.9
-background-blur = 20
+background-opacity = 0.8
+background-blur = 80
 
 cursor-style = block
 cursor-style-blink = false
 cursor-opacity = 0.5
 
 font-family = "Hack Nerd Font Mono"
-font-size = 14
+font-size = 16
 font-feature = -liga
 
-theme = catppuccin-mocha
+theme = Catppuccin Mocha
 
 command = /opt/homebrew/bin/fish --login --interactive
 shell-integration = fish
 shell-integration-features = no-cursor
-

@@ -19,4 +19,4 @@ theme = Catppuccin Mocha
 
 command = /opt/homebrew/bin/fish --login --interactive
 shell-integration = fish
-shell-integration-features = no-cursor
+shell-integration-features = no-cursor,ssh-terminfo,ssh-env

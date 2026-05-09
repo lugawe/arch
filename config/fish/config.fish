@@ -1,6 +1,6 @@
 set fish_greeting ""
 
-abbr --add ad "alacritty & disown"
+abbr --add gd "ghostty & disown"
 
 for file in $__fish_config_dir/conf.d/*.fish
     source $file
